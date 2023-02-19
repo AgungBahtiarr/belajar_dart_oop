@@ -5,7 +5,7 @@ class Person {
 
   // Constructor, Method yang pertama kali di panggil saat object di buat;
 
-  Person(String paramName, String paramAddress) { // Untuk menjadikan parameter optional, cukup menjadikannua nullable
+  Person(String paramName, String paramAddress) { // Untuk menjadikan parameter optional, cukup menjadikannya nullable
     name = paramName; // harus sama dengan nama field
     address = paramAddress;
   }
