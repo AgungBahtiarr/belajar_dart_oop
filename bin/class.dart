@@ -28,6 +28,5 @@ void main(List<String> args) {
   mobil1.merk = "Avanza";
   mobil1.tahun = 2020;
 
-  print(
-      "ini adalah mobil1 dengan Merk ${mobil1.merk} dan dibuat pada tahun ${mobil1.tahun}");
+  print("ini adalah mobil1 dengan Merk ${mobil1.merk} dan dibuat pada tahun ${mobil1.tahun}");
 }
