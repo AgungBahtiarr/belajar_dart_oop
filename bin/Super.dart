@@ -10,6 +10,11 @@ class Rectangle extends Shape {
   }
 
   int getParentCorner() {
-    return super.getCorner(); // Mendapatkan method dari parent 
+    return super.getCorner(); // Mendapatkan method dari parent
   }
+}
+
+void main(List<String> args) {
+  var rectangle = Rectangle();
+  print(rectangle.getCorner());
 }
