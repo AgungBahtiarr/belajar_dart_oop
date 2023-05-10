@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 abstract class Location {
   // object tidak akan bisa dibuat dari class ini
   String? name; // class ini dibuat hanya untuk diturunkan.
