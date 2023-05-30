@@ -26,6 +26,7 @@ class BookApi {
       buku.author = jsonAuthor['name'];
     } catch (e) {
       print(e);
+      print("isbn tidak sesuai");
     }
     return buku;
   }
